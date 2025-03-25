@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Accessibilité - Timal Fanpage</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-red bg-red" role="navigation" aria-label="Menu principal">
+        <div class="container">
+            <a class="navbar-brand" href="#">Timal Fanpage</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Basculer la navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Acceuil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Accessibilité</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main role="main" class="container py-5">
+        <h1>Accessibilité du site</h1>
+
+        <section id="intro">
+            <p>Nous nous engageons à rendre notre site accessible à tous, y compris aux personnes en situation de handicap, dans le respect des normes d'accessibilité les plus récentes.</p>
+        </section>
+
+        <section id="measures">
+            <h2>Mesures prises pour l'accessibilité</h2>
+            <ul>
+                <li>Utilisation de balises HTML sémantiques et de rôles ARIA pour améliorer la navigation avec les technologies d'assistance.</li>
+                <li>Des contrastes de couleurs suffisants entre le texte et l'arrière-plan pour aider les utilisateurs malvoyants.</li>
+                <li>Des images accompagnées de descriptions alternatives (attributs `alt`) pour les utilisateurs de lecteurs d'écran.</li>
+                <li>Un carrousel de vidéos YouTube avec des sous-titres activés par défaut pour les utilisateurs sourds ou malentendants.</li>
+                <li>Navigation au clavier et prise en charge des technologies d'assistance (lecteurs d'écran, etc.).</li>
+                <li>Respect des normes d'accessibilité WCAG AA et RGAA.</li>
+            </ul>
+        </section>
+
+        <section id="standards">
+            <h2>Conformité aux normes d'accessibilité</h2>
+            <p>Le site a été conçu pour répondre aux critères des normes internationales WCAG (Web Content Accessibility Guidelines) et RGAA (Référentiel Général d'Accessibilité pour les Administrations). Nous faisons des efforts constants pour améliorer l'accessibilité.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Nous contacter</h2>
+            <p>Si vous avez des questions ou des suggestions concernant l'accessibilité de notre site, veuillez nous contacter à l'adresse suivante :</p>
+            <p><strong>Email :</strong> <a href="mailto:accessibilite@timal-fanpage.com">accessibilite@timal-fanpage.com</a></p>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3" role="contentinfo">
+        <p>&copy; 2025 Timal Fanpage. Tous droits réservés.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
